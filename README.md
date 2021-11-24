@@ -1,6 +1,8 @@
 # LCD Clock For Leanrning
 ## 1. Final Result
 ![Result](https://github.com/MR-Addict/Clock-Board-For-Learning/blob/main/Images/image02.jpg)
+## 2. Board Pinout
+![Pinout](https://github.com/MR-Addict/Clock-Board-For-Learning/blob/main/PCB%20Design/Circuit.png)
 ## 2. Parts Needed
 ### (1) Custom PCB Board
 The gerber file is in **PCB Design/LCD Clock**,you can directly manufacture them.
