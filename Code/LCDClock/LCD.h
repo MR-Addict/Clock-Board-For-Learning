@@ -81,7 +81,7 @@ void DisplayTime() {
     String DateFormat = (String)YEAR + '-';
     if (MONTH < 10)DateFormat += '0' + (String)MONTH + '-';
     else DateFormat += (String)MONTH + '-';
-    if (DATE < 10)DateFormat += '0' + (String)DATE + '-';
+    if (DATE < 10)DateFormat += '0' + (String)DATE;
     else DateFormat += (String)DATE;
     lcd.setCursor(3, 1);
     lcd.print(DateFormat);
