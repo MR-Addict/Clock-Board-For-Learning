@@ -52,7 +52,7 @@ void DisplayTime() {
   if (millis() - LASTTIME >= 1000) {
     DateTime now = rtc.now();
     YEAR = now.year(), MONTH = now.month(), DATE = now.day(), HOUR = now.hour(), MINUTE = now.minute(), SECOND = now.second();
-    if (HOUR == ALARMHOUR && MINUTE == ALARMMINUTE && SECOND == ALARMSECOND && SECOND == ALARMSECOND) {
+    if (HOUR == ALARMHOUR && MINUTE == ALARMMINUTE && SECOND == ALARMSECOND && SECOND == ALARMSECOND && isAlarm) {
       digitalWrite(Buzzer, HIGH);
       lcd.clear();
       lcd.setCursor(8, 0);
